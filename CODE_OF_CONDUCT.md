@@ -14,8 +14,9 @@ Our community is committed to providing a safe and welcoming environment for eve
 
 6. **Follow Project Guidelines**: When contributing to the SyncBoard project, please follow the guidelines outlined in the project's README and contribute positively to discussions.
 
-7. **Report Inappropriate Behavior**: If you witness or experience any behavior that violates this code of conduct, please report it to the project maintainers immediately.
+7. **Report Inappropriate Behavior**: If you witness or experience any behavior that violates this code of conduct, please report it to the project maintainers at hello@jayavignesh.dev immediately.
 
 8. **Compliance**: Failure to comply with this code of conduct may result in removal from the project and the community. Project maintainers have the final say on any issues or disputes.
 
 By participating in SyncBoard, you agree to abide by this code of conduct. We are committed to creating a welcoming and collaborative environment for all, and your cooperation is vital in achieving this goal. Thank you for helping us maintain a respectful and inclusive community.
+

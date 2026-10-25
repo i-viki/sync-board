@@ -10,7 +10,7 @@ By accessing or using SyncBoard, you agree to comply with and be bound by these 
 
 **2. Description of Service**
 
-SyncBoard is a web application that enables users to share text and images in real-time. It is designed for developers, content creators, and teams to collaborate and share content instantly.
+SyncBoard is a high-performance web application that enables users to share text, code, and files in real-time. It is designed for developers, content creators, students, and teams to collaborate and share content instantly across devices without friction or account overhead.
 
 **3. Use of Service**
 
@@ -20,8 +20,9 @@ SyncBoard is a web application that enables users to share text and images in re
 
 **4. Data Handling**
 
-- **Personal Data:** We do not collect any personal data from users. Our platform operates anonymously.
-- **Data Collection:** The data entered or uploaded by users is only used for real-time sharing within the same room code and is not stored persistently.
+- **Personal Data:** We do not collect any personal data or personally identifiable information from users. Our platform operates anonymously.
+- **Data Collection:** Content entered or files uploaded (up to 5 assets per board, 10MB per file) are strictly transmitted for real-time collaboration within the active board session and are not permanently retained. Users can secure boards with a custom 6-digit PIN and set self-destruct countdown timers to automatically purge board contents.
+
 
 **5. Intellectual Property**
 

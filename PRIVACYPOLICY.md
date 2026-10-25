@@ -6,55 +6,55 @@ Welcome to SyncBoard! This Privacy Policy explains how we handle user informatio
 
 **1. What Does SyncBoard Do?**
 
-SyncBoard is a powerful and easy-to-use web app that lets you share text and images instantly. It enables real-time collaboration for developers, content creators, and teams.
+SyncBoard is a high-performance, real-time collaboration web app that lets you share text and files instantly. It enables frictionless collaboration for developers, content creators, and teams across any device.
 
 **2. Who Is the Target Audience?**
 
-Our platform is designed for developers, content creators, and teams who need to share text and images in real-time.
+Our platform is designed for developers, content creators, students, and teams who need to share text, code snippets, and files in real-time.
 
 **3. What Personal Data Do We Collect?**
 
-We do not collect any personal data. Our platform does not require users to create an account, and no personal information is collected.
+We do not collect any personally identifiable information (PII). We do not collect IP geolocation, names, emails, or phone numbers for using boards. Our platform operates with anonymous Firebase authentication without requiring account registration.
 
 **4. How Is Data Collected?**
 
-We do not collect personal data. Any data typed or pasted by the user on the website is only collected for the purpose of real-time sharing within the clipboard room.
+We do not collect personal data. Any text typed or files uploaded by users are synchronized strictly for the purpose of real-time collaboration within the designated 5-character board code. Recent board codes may be kept in your browser's local storage in an obfuscated Base64 format solely for your convenience and can be cleared at any time.
 
 **5. Do Users Need to Create an Account?**
 
-No, users can use SyncBoard anonymously. No account creation is required.
+No, users can use SyncBoard completely anonymously. No account creation or email verification is required.
 
 **6. How Do We Use the Collected Data?**
 
-We do not collect personal data. The data that is typed or pasted by users is shared in real-time within the same room code and is visible to all users within that room.
+We do not collect personal data. Content typed or uploaded by users is transmitted in real-time to active participants within the same board code.
 
 **7. Do We Share User Data with Third Parties?**
 
-No, we do not share user data with third parties.
+No, we do not sell, rent, or share user data with third parties.
 
-**8. How Do We Handle Text and Images Users Share?**
+**8. How Do We Handle Text and Files Users Share?**
 
-All data is securely stored in our database and shared only within the same room code.
+Text and files (up to 5 assets per board, 10MB per file) are securely synchronized through our infrastructure and shared only among participants with the board code. Boards can optionally be protected with a SHA-256 encrypted 6-digit PIN to prevent unauthorized modifications.
 
 **9. Where Is User Data Stored?**
 
-We do not store any user data. Data is shared in real-time within the same room code and is not stored persistently.
+We do not persistently store personal user data. Data is shared in real-time within the active board session and can be wiped instantly using the Clear Board action or automatic self-destruct countdown timers.
 
 **10. What Security Measures Do We Have to Protect User Data?**
 
-We do not store user data. The data is shared only among users with the same room code and is not accessible by others.
+Data is isolated by 5-character board codes and protected by Firebase security rules. Users can lock their board with a custom 6-digit PIN. Board content is strictly accessible to users holding the board credentials.
 
 **11. How Long Do We Keep User Data?**
 
-We do not store user data.
+Board content is ephemeral. Users can set Self-Destruct Timers (10 minutes, 1 hour, or 24 hours) after which board content is automatically cleared. Boards can also be wiped manually at any moment.
 
 **12. Do Users Have Rights to Access, Correct, or Delete Their Data?**
 
-Users can access, correct, or delete data within the room code they are part of. However, since data is not stored persistently, these actions are limited to the current session.
+Users have full real-time control to edit, replace, or delete shared text and files directly within their board during the active session.
 
 **13. Do We Use Cookies or Similar Tracking Technologies?**
 
-No, we do not use cookies or similar tracking technologies.
+No, we do not use tracking cookies or third-party advertising trackers. We utilize standard browser local storage solely for theme preferences (light/dark mode) and optional obfuscated recent board history.
 
 **14. Where Is Our Service Based?**
 
