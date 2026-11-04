@@ -148,7 +148,7 @@ SyncBoard/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/i-viki/SyncBoard.git
+git clone https://github.com/i-viki/sync-board.git
 cd SyncBoard
 ```
 
