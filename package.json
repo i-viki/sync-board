@@ -6,10 +6,10 @@
   "homepage": "https://isyncboard.vercel.app/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/i-viki/SyncBoard.git"
+    "url": "https://github.com/i-viki/sync-board.git"
   },
   "bugs": {
-    "url": "https://github.com/i-viki/SyncBoard/issues"
+    "url": "https://github.com/i-viki/sync-board/issues"
   },
   "scripts": {
     "dev": "vite --host",
