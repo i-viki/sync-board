@@ -67,8 +67,8 @@ flowchart TB
     APP --> SECURITY
     SECURITY --> ROOMS
     APP <--> PRESENCE
-    APP -->|Multipart Direct Upload| CLOUDINARY
-    VALIDATOR -.->|Audit & Purge| ROOMS
+    APP -->|"Multipart Direct Upload"| CLOUDINARY
+    VALIDATOR -.->|"Audit & Purge"| ROOMS
 ```
 
 ### Monorepo Structure
