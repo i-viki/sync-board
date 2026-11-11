@@ -110,13 +110,13 @@ SyncBoard/
 
 SyncBoard enforces strict user anonymity and cryptographic room boundaries without server-side user tables:
 
-$$H_{\text{room}} = \operatorname{SHA-256}(\text{RoomCode}_{5\text{-char}} \parallel \text{PIN}_{6\text{-digit}})$$
+$$H_{\text{room}} = \text{SHA-256}(\text{RoomCode}_{5\text{-char}} \parallel \text{PIN}_{6\text{-digit}})$$
 
-$$T_{\text{debounce}} = 400\text{ms} \implies \text{Max Database Write Rate} = 2.5 \text{ ops/sec per user}$$
+$$T_{\text{debounce}} = 400\,\text{ms} \implies R_{\text{write}} \le 2.5\,\text{ops/s}$$
 
 | Security Invariant | Technical Implementation | Privacy Guarantee |
 | :--- | :--- | :--- |
-| **Room Code Space** | 5-character alphanumeric ($[A-Z0-9]^5 \approx 60.4\text{M}$ rooms) | Frictionless sharing with bounded collision space |
+| **Room Code Space** | 5-character alphanumeric ($36^5 \approx 60.4\text{M}$ rooms) | Frictionless sharing with bounded collision space |
 | **Salted PIN Lock** | `SHA-256(code + ":" + pin)` | Rainbow table immune; client enforces read-only mode |
 | **Anonymous Session** | Firebase Anonymous Token | Database rules require authentication without identity tracking |
 | **Zero-PII Presence** | Temporary session UUIDs | IP addresses and geolocation are never collected |
